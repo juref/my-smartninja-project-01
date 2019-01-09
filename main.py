@@ -7,8 +7,9 @@ import webapp2
 # handlers
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        return self.response.write('Hello, SmartNinja!')
-        return self.response.write('Čestitke! Uspešno ste namestili in zagnali vašo prvo aplikacijo na Goolge Cloudu!')
+        return self.response.write('Hello, SmartNinja!'
+                                   '<br/>'
+                                   'Čestitke! Uspešno ste namestili in zagnali vašo prvo aplikacijo na Goolge Cloudu!')
 
 
 # URLs
